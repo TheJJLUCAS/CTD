@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+
+body {
+    background-image: url('/Testes/img/920308.jpg');
+    background-position: center;
+}
+
+.navegacao {
+    width:100%;
+    height: 80px;
+    align-self: center;
+    background-color: #2b159e;
+    margin-left: unset;
+    border-radius: 10px;
+}
+
+.logocanto {
+    width: 15%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.link {
+    color: #000;
+    font-family: 'Urbanist', sans-serif;
+    font-size: small;
+    font-style: normal;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.botaolink {
+    background-color: #fff;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    left-margin:20px;
+    align-content: center;
+}
