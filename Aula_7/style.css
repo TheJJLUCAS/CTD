@@ -1,0 +1,12 @@
+p {
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+    font-weight: 500;
+}
+
+.textp {
+    color: teal;
+    font-family: monospace;
+    font-size: 18px;
+}
