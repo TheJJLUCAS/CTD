@@ -1,0 +1,71 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@500&display=swap');
+
+/*--------------------------------------------------------------------------------------------------*/
+body {
+
+    background-color: rgb(14, 14, 14);
+
+}
+/*--------------------------------------------------------------------------------------------------*/
+.PTitle {
+
+    color:whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20px;
+
+}
+/*--------------------------------------------------------------------------------------------------*/
+.media-picture {
+
+    height: 350px;
+    background-image: url('https://i.pinimg.com/originals/47/10/28/47102816721094b8eca70cf549ddb06f.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+/*--------------------------------------------------------------------------------------------------*/
+.review-score {
+
+    background-color:#e600738f;
+    padding: 20px;
+    margin-block-end: 20px;
+    color: white;
+    font-family:'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+h2 {
+
+    font-family:'Lato', sans-serif;
+    color: rgb(255, 193, 77);
+    margin-left: 20px;
+
+}
+/*--------------------------------------------------------------------------------------------------*/
+p {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: whitesmoke;
+    margin-left: 20px;
+
+}
+/*--------------------------------------------------------------------------------------------------*/
+.link {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    background-color: #e600738f;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+
+}
