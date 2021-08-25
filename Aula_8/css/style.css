@@ -70,6 +70,8 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 8px;
+    position: relative;
+    top: 20px;
 
 }
 /*--------------------------------------------------------------------------------------------------*/
@@ -85,6 +87,8 @@ p {
     float: left;
     margin-top: 80px;
     margin-bottom: auto;
+    position: relative;
+    left: 40px;
 
 }
 /*--------------------------------------------------------------------------------------------------*/
