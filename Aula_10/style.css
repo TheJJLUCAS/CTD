@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Bebas+Neue&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+
+    background-color: #0d001a;
+}
+
+.banner {
+
+    height: 190px;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0px 20px 30px;
+    background-image: url('https://startupi.com.br/wp-content/uploads/2020/03/267896-como-anda-o-mercado-de-games-no-brasil-descubra-neste-post.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.botao {
+
+    background-color: #0d001a;
+    padding: 10px 15px 10px 15px;
+    color: cornsilk;
+    border: none;
+    border-radius: 10px;
+    margin-top: 45px;
+
+}
+
+.title {
+
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 80px;
+    line-height: 0;
+    margin-bottom: 28px;
+    margin-top: 30px;
+
+}
+
+.subtitle {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    color: #efdbff;
+}
+
+.bar {
+
+    height: 5px;
+    background-color: rgb(255, 74, 174);
+
+}
+
+p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px;
+}
