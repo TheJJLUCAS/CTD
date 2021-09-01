@@ -1,0 +1,60 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    height: 2500px;
+    background-color: black;
+
+}
+
+.box-ext {
+
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+.box-int {
+
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+}
+
+.box-int p{
+
+    color: darkblue;
+    position: relative;
+    top: 40%;
+    left: 40%;
+
+}
+
+.position-abs1 {
+
+    position: absolute;
+    left: 0;
+
+}
+
+.position-abs2 {
+
+    position: absolute;
+    right: 0;
+
+}
+
+.position-fix {
+
+    position: fixed;
+    bottom: 100px;
+    left: 40%;
+
+}
