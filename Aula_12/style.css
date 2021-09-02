@@ -1,0 +1,206 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    height: 2000px;
+    background-color: #050308;
+
+}
+
+.menu {
+
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #180630;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+}
+
+.banner {
+
+    position: relative;
+    height: 400px;
+    top: 70px;
+    width: 100%;
+    background-image: url('http://mmorpgbr.com.br/wp-content/uploads/2020/05/mmorpgbrteclado.jpg');
+    background-size: cover;
+    background-position: bottom;
+    z-index: 1;
+
+}
+
+.banner h1 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70PX;
+    
+}
+
+.logo {
+
+    width: 180px;
+    padding: 0px 20px;
+
+}
+
+.title {
+
+    position: relative;
+    width: 400px;
+    left: 20px;
+    top: 200px
+}
+
+.menu-icon {
+
+    position: fixed;
+    width: 40px;
+    top: 15px;
+    right: 20px;
+}
+
+.produto1 {
+
+    position: absolute;
+    height: 300px;
+    width:300px;
+    background-color: rgb(206, 206, 206);
+    top: 500px;
+    left: 40px;
+
+
+}
+
+.foto-prod1 {
+
+    width: 100%;
+    height: 200px;
+    background-image: url('https://s2.glbimg.com/-lq_Fc3-X5QRGUh1UGqQJ6kBM7o=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/m/h/fRooMPTIKz9wAx2BmCwQ/invader-m719.jpg') ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+p {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.botao {
+
+    background-color: #640540;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    border: #640540;
+    border-radius: 10PX;
+    position: relative;
+    top: 5px;
+    left: 32%;
+}
+
+.produto2 {
+
+    position: absolute;
+    height: 300px;
+    width:300px;
+    background-color: rgb(206, 206, 206);
+    top: 500px;
+    left: 380px;
+
+
+}
+
+.foto-prod2 {
+
+    width: 100%;
+    height: 200px;
+    background-image: url('https://wallpapercave.com/wp/wp3631262.jpg') ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.produto3 {
+
+    position: absolute;
+    height: 300px;
+    width:300px;
+    background-color: rgb(206, 206, 206);
+    top: 500px;
+    left: 720px;
+
+
+}
+
+.foto-prod3 {
+
+    width: 100%;
+    height: 200px;
+    background-image: url('https://maquinagamer.com/wp-content/uploads/2020/08/gabinete_gamer_barato.jpg') ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.produto4 {
+
+    position: absolute;
+    height: 300px;
+    width:300px;
+    background-color: rgb(206, 206, 206);
+    top: 500px;
+    left: 1060px;
+
+
+}
+
+.foto-prod4 {
+
+    width: 100%;
+    height: 200px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/860/281/302/pc-gaming-league-of-legends-rgb-cyberpower-pc-wallpaper-preview.jpg') ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.wpp {
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 80px;
+    width: 80px;
+
+}
+.icon {
+
+    height: 60px;
+    background-image: url('https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png');
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wpp p {
+
+    font-size: 12px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
