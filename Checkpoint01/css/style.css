@@ -1,0 +1,446 @@
+/*---------------------------------------------------- RESET DE PREDIFINIÇÕES DO NAV E IMPORTS------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+/*font-family: 'Poppins', sans-serif;*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*---------------------------------------------------------- ESTILIZAÇÕES  PÁGINA INDEX -----------------------------------------------------------------*/
+
+body {
+
+
+    background-size: cover;
+    background-position-y: -600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+
+}
+
+.index-bg {
+
+    background-image: url('/Checkpoint01/img/bg_index.jpg');
+    height: 1600px;
+    
+}
+
+#menu {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #000000b4;
+    z-index: 2;
+
+}
+
+.link {
+
+    margin: 0px 50px 0px 50px;
+    position: relative;
+    bottom: 25px;
+    color: white;
+    text-decoration: 0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 600;
+
+}
+
+.menu-link {
+
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+
+
+}
+
+.logo {
+
+    position:relative;
+    width: 200px;
+    left: 20px;
+    
+}
+
+.bar {
+
+    position: relative;
+    height: 20px;
+    bottom: 20px;
+}
+
+.inst-logo {
+
+    position: absolute;
+    height: 20px;
+    right: 150px;
+    top: 22px;
+
+}
+
+.yt-logo {
+
+    position: absolute;
+    height: 20px;
+    right: 100px;
+    top: 22px;    
+
+}
+
+.yt-video {
+
+    position: absolute;
+    right: 80px;
+    top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.479) 5px 5px 10px;
+    height: 310px;
+    width: 45%;
+    
+}
+
+.texto {
+
+    position: relative;
+    width: 30%;
+    height: 50%;
+    top: 120px;
+    left: 80px;
+
+}
+
+.texto h1{
+
+    width: 100%;
+    font-size: 85px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: #000 2px 2px 10px;
+
+}
+
+.texto img{
+
+    position: relative;
+    left: 40%;
+    top: 20px;
+    width:50px;
+
+}
+
+.texto p {
+
+    color: white;
+    text-align: justify;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 15px;
+    text-shadow: #000 2px 2px 5px;
+    font-weight: 500;
+
+}
+
+.listas {
+
+    position: absolute;
+    right: 80px;
+    top: 480px;
+    width: 45%;
+    color: white;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 14px;
+    text-shadow: #000 2px 2px 5px;
+    font-weight: 600;
+
+}
+
+.list1 {
+
+    position: absolute;
+    display: block;
+    left: 15px;
+    top:0;
+    z-index: 1;
+
+}
+
+.list2 {
+
+    position: absolute;
+    display: block;
+    left: 45%;
+    top:0;
+    z-index: 1;
+
+}
+
+.list3 {
+
+    position: absolute;
+    display: block;
+    right: 0;
+
+}
+
+.history {
+
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    height: 400px;
+    background-color: #ffffffd0;
+    padding: 40px 80px;
+    box-sizing: border-box;
+}
+
+.history h1{
+
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #131313;
+
+}
+
+.history p {
+
+    color: #131313;
+    text-align: justify;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 20px;
+
+}
+
+.imagens {
+
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 1000px;
+    box-sizing: border-box;
+    background-color: #000000d0;
+}
+
+.img-lateral {
+
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-image: url('https://www.vounajanela.com/wp-content/uploads/2018/06/Bangkok-tailandia-1050x599.jpg');
+    background-size: cover
+
+}
+
+.textos-img p {
+
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+
+.textos-img {
+
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    width: 50%;
+
+}
+
+.textos-img h1 {
+
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+
+}
+
+.textos-img button {
+
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #0a0a0a;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+
+.thanks {
+    
+    display: block;
+    position: absolute;
+    top: 1450px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+
+/*---------------------------------------------------------- ESTILIZAÇÕES  PÁGINA ABOUT -----------------------------------------------------------------*/
+
+.about-bg {
+
+    background-image: url('/Checkpoint01/img/bg_about.jpg');
+    background-position-y:-900px;
+
+}
+
+.infos {
+
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60%;
+    background-color: #000000e1;
+    top: 25%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border-radius: 20px;
+
+}
+
+.travel-logo {
+
+    width: 40%;
+
+}
+
+.infos p {
+
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.ctd-logo {
+
+    width: 150px;
+    position: relative;
+    left: 0;
+    bottom:0;
+
+}
+
+.dh-logo {
+
+    width: 150px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+
+}
+
+/*---------------------------------------------------------- ESTILIZAÇÕES  PÁGINA ABOUT -----------------------------------------------------------------*/
+
+.contact-bg {
+
+    background-image: url('/Checkpoint01/img/bg_contact.jpg');
+    background-position-y: 45%;
+
+}
+
+.contact-photo {
+
+    position: absolute;
+    width: 15%;
+    top: -20%
+}
+
+.infos h1 {
+
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 40%;
+    margin-bottom: 60px;
+
+}
+
+.logo-cont {
+
+    height: 20px;
+    margin: 0 20px 20px 0
+}
+
+
+/*---------------------------------------------------------------------- ANIMAÇÕES ----------------------------------------------------------------------*/
+
+.link:hover 
+
+{ 
+
+transition: 0.5s;
+
+opacity: 0.6;
+
+}
+
+.inst-logo:hover 
+
+{ 
+
+transition: 0.5s;
+
+opacity: 0.6;
+
+}
+
+.yt-logo:hover 
+
+{ 
+
+transition: 0.5s;
+
+opacity: 0.6;
+
+}
+
+.textos-img button:hover {
+
+    transition: 0.5s;
+
+    opacity: 0.6;
+
+}
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.logo-cont:hover 
+
+{ 
+
+transition: 0.5s;
+
+opacity: 0.6;
+
+}
